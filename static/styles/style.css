@@ -37,7 +37,8 @@ a:hover{
 }
 footer{
     height: 50px;
-    background-color: #f3f3f3;
+    background-color: #333;
+    color: #fff;
     display: flex;
     justify-content: center;
     align-items: center;
