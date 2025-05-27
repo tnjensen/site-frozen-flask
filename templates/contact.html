@@ -10,9 +10,9 @@
     <header>
         <nav>
             <ul>
-                <li><a href="{{ url_for('index') }}">Home</a></li>
-                <li><a href="{{ url_for('about') }}">About</a></li>
-                <li><a href="{{ url_for('contact') }}">Contact</a></li>
+                <li><a href="{{ url_for('static', filename='index.html') }}">Home</a></li>
+                <li><a href="{{ url_for('static', filename='about.html') }}">About</a></li>
+                <li><a href="{{ url_for('static', filename='contact.html') }}">Contact</a></li>
             </ul>
         </nav>
     </header>
