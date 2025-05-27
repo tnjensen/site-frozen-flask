@@ -7,7 +7,22 @@
     <link href="{{url_for('static', filename='styles/style.css')}}" rel="stylesheet" type="text/css">
 </head>
 <body>
-    <h1>Welcome to our site</h1>
-    <p>This is a simple Python website using Flask.</p>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="{{ url_for('index') }}">Home</a></li>
+                <li><a href="{{ url_for('about') }}">About</a></li>
+                <li><a href="{{ url_for('contact') }}">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <h1>Welcome to our site</h1>
+        <p>This is a simple Python website using Flask.</p>
+    </main>
+    <footer>
+        <p>&copy; 2023 My Python Website</p>
+    </footer>
+    <script src="{{ url_for('static', filename='scripts/script.js') }}"></script>
 </body>
 </html>
