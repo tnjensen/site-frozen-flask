@@ -12,6 +12,14 @@ body{
     padding: 1.5rem;
     min-height: calc(100vh - 50px);
 }
+a{
+    text-decoration: none;
+    color: #333;
+}
+a:hover{
+    color: #007bff;
+    text-decoration: underline;
+}
 footer{
     height: 50px;
     display: flex;
